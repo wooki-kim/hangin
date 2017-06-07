@@ -3,54 +3,72 @@
   <head>
     <title><%= title %></title>
     <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
+
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>문자 행동으로 민주주의 실현</p>
+    <article>
+      <p>행인은 공인 감시 플랫폼을 위해 시작합니다.</p>
+      <p>욕설보다 무서운건 감시하는 말 한마디 입니다.</p>
+      <p>이름을 터치하면 문자메시지로 바로 이동됩니다</p>
+      <p>국회의원 개인 번호를 아시거나 이외에 공개되어있는 번호를 아시는 분은 댓글로 피드백 바랍니다.</p>
+    </article>
+    
+
     <ul class="waste-list">
       <li>
-        <a href="sms:01023452222"  >홍문종</a>
+        <a href="sms:01023452222" class="btn btn-success">홍문종</a>
       </li>
       <li>
-        <a href="sms:0173577663"  >서청원</a>
+        <a href="sms:0173577663" class="btn btn-success">서청원</a>
       </li>
       <li>
-        <a href="sms:01034476767"  >원유철</a>  
+        <a href="sms:01034476767" class="btn btn-success">원유철</a>  
       </li>
       <li>
-        <a href="sms:01034476767"  >원유철</a>
+        <a href="sms:01034476767" class="btn btn-success">원유철</a>
       </li>
       <li>
-        <a href="sms:01025819888"  >유기준</a>
+        <a href="sms:01025819888" class="btn btn-success">유기준</a>
       </li>
       <li>
-        <a href="sms:01029159600"  >윤상현</a>
+        <a href="sms:01029159600" class="btn btn-success">윤상현</a>
       </li>
       <li>
-        <a href="sms:01093071181"  >이주영</a>  
+        <a href="sms:01093071181" class="btn btn-success">이주영</a>  
       </li>
       <li>
-        <a href="sms:01089802278"  >최경환</a>
+        <a href="sms:01089802278" class="btn btn-success">최경환</a>
       </li>
       <li>
-        <a href="sms:01088722300"  >박주선</a>
+        <a href="sms:01088722300" class="btn btn-success">박주선</a>
       </li>
       <li>
-        <a href="sms:01090385274"  >김무성</a>  
+        <a href="sms:01090385274" class="btn btn-success">김무성</a>  
       </li>
       <li>
-        <a href="sms:01063418369"  >윤영석</a>  
+        <a href="sms:01063418369" class="btn btn-success">윤영석</a>  
       </li>
       <li>
-        <a href="sms:01037560180"  >이태규</a>  
+        <a href="sms:01037560180" class="btn btn-success">이태규</a>  
       </li>
       <li>
-        <a href="sms:01044144955"  >정양석</a>  
+        <a href="sms:01044144955" class="btn btn-success">정양석</a>  
       </li>
     </ul>
     <p>[출처] <a href="http://m.todayhumor.co.kr/view.php?table=bestofbest&no=339972&page=1" target="_bank">오늘의 유머</a></p>
     <p>[수정 및 피드백] <a href="email:9x93q@wimsg.com" target="_bank">행인 마스터</a></p>
-    
+    <div class="fb-comments" data-href="http://hangin.kr" data-numposts="5"></div>
+    <div id="fb-root"></div>
   </body>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.9&appId=541057702715909";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  
 </html>
